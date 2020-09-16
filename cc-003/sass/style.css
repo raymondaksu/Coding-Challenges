@@ -320,7 +320,7 @@ button {
     height: 400px;
   }
   .total, .shipping {
-    width: 350px;
+    width: 400px;
   }
   button {
     position: relative;
@@ -329,9 +329,9 @@ button {
     transform: translateX(-50%);
   }
   img {
-    width: 120px;
-    max-height: 120px;
+    width: 130px;
+    max-height: 130px;
     border-radius: 10px;
-    margin-right: 20px;
+    margin-right: 40px;
   }
 }
