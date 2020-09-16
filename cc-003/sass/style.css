@@ -328,4 +328,10 @@ button {
     left: 50%;
     transform: translateX(-50%);
   }
+  img {
+    width: 35%;
+    max-height: fit-content;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
 }
