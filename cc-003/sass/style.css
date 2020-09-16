@@ -320,7 +320,7 @@ button {
     height: 400px;
   }
   .total, .shipping {
-    width: 380px;
+    width: 350px;
   }
   button {
     position: relative;
