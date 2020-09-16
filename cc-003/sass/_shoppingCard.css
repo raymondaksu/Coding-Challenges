@@ -1,0 +1,73 @@
+.cart {
+  width: 350px;
+  height: 380px;
+  border-radius: 10px;
+  background-color: #eeeeee;
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.backbag, .shoes {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.summary {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+#product_name {
+  font-weight: 600;
+  opacity: 0.66;
+}
+
+#price {
+  color: #ff790a;
+  font-weight: 700;
+  opacity: 0.7;
+  padding-top: 10px;
+}
+
+#old_price {
+  padding-left: 5px;
+  color: #000;
+  text-decoration: line-through;
+  font-size: 0.8em;
+}
+
+.count_box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 0.8rem;
+  border: 1px solid;
+  border-radius: 5px;
+  border-color: rgba(0, 0, 0, 0.4);
+  width: 7rem;
+  height: 30px;
+  margin-top: 1.3rem;
+}
+
+#math_sign {
+  font-weight: 900;
+  font-size: 1.3rem;
+  background-color: #cecccc;
+  border-radius: 5px;
+  width: 25px;
+  text-align: center;
+  text-justify: distribute;
+}
+
+.total, .shipping {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+  border-top: 1px rgba(175, 174, 174, 0.6) solid;
+  width: 300px;
+}

@@ -1,0 +1,156 @@
+@import "_normalization.scss";
+@import "_shoppingCard.scss";
+
+header {
+    padding: 1em;
+    padding-bottom: 2em;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    left: 15%;
+    width: 70%;
+    height: 50%;
+    display: grid;
+    grid-template-columns: 400px, 300px;
+    grid-template-areas: 
+        "Form Cart";
+    grid-column-gap: 15px;;
+}
+
+img {
+    width: 35%;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.form {
+    line-height: 2;
+    display: block;
+    width: 450px;
+    label,
+    #information_text {
+        font-size: 0.8rem;
+        opacity: 0.8;
+    }
+}
+
+input {
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 28px;
+}
+
+.upside, .downside {
+    padding-bottom: 2em;
+}
+
+.country_and_postcode {
+    display: flex;
+    box-sizing: content-box;
+    justify-content: flex-start;
+}
+
+#postcode {
+    width: 220px;
+    box-sizing: content-box;
+}
+
+#country_label {
+    padding-right: 100px;
+    box-sizing: content-box;
+}
+
+#country {
+    height: 30px;
+    width: 140px;
+    border-radius: 5px;
+    font-size: 0.8em;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+}
+
+#information {
+    width: 13px;
+    height: 13px;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#information_text {
+    padding: 0 0 10px 20px;
+}
+
+button {
+    opacity: 0.8;
+    float: right;
+    width: 100px;
+    height: 40px;
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(241, 139, 55);
+    border: none;
+}
+
+.input-field {
+    display:inline-block;
+    position: relative;
+}
+
+
+.fas {
+    display: inline;
+    position: absolute;
+    left: 5px;
+    bottom: 8px;
+    color: #919595;
+}
+
+.fa-globe-americas, .fa-mail-bulk {
+    bottom: 27px;
+}
+
+$breakpoint-mobile : 540px;
+@media (max-width: $breakpoint-mobile) {
+    .container {
+        left: 5%;
+        width: 70%;
+        height: 50%;
+        display: grid;
+        grid-template-rows: 420px 640px;
+        grid-template-areas: 
+            "Cart"
+            "Form";
+        grid-row-gap: 15px;
+    }
+
+    .form {
+        grid-row: 2/3;
+    }
+    .cart {
+        grid-area: "Cart";
+        width: 420px;
+        height: 400px;
+    }
+
+    .total, .shipping {
+        width: 400px;
+    }
+
+    button {
+        position: relative;
+        float: none;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
