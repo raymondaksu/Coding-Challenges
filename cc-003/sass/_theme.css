@@ -237,8 +237,8 @@ button {
     transform: translateX(-50%);
   }
   img {
-    width: 30%;
-    max-height: 30%;
+    width: 120px;
+    max-height: 120px;
     border-radius: 10px;
     margin-right: 20px;
   }
