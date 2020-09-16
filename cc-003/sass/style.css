@@ -330,7 +330,7 @@ button {
   }
   img {
     width: 35%;
-    max-height: fit-content;
+    max-height: 35%;
     border-radius: 10px;
     margin-right: 20px;
   }
