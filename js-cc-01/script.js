@@ -1,9 +1,5 @@
 document.getElementById("button_1").addEventListener("click", check)
-// document.getElementById("button_1").addEventListener("keypress", function(e) { 
-//     if (e.code === 13) { 
-//         document.getElementById("button_1").addEventListener("click", guess_the_number); 
-//     } 
-// })
+
 function check () {
     const number = document.getElementById("guess").value;
     if (number !== "") {
@@ -35,3 +31,5 @@ function check () {
 function reset(){
     document.getElementById('fibonacci_number').value = "";
 }
+
+
