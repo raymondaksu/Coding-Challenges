@@ -36,7 +36,7 @@ mergeArraysBtn.addEventListener("click", function () {
 function mergeArrays(ArrayA, ArrayB) {
   desc.innerText += "   Second Array: " + ArrayB.join(", ");
   ArrayB.forEach((x) => {
-    ArrayA.push(parseInt(x)); 
+    ArrayA.push(x); 
   });
 
   return ArrayA.sort((a, b) => a-b).join(", ");
