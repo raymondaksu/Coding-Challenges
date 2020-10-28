@@ -12,5 +12,7 @@ https://raymondaksu.github.io/Coding-Challenges/js-cc-04/
 
 https://github.com/raymondaksu/Coding-Challenges/tree/master/js-cc-05
 
+https://raymondaksu.github.io/Coding-Challenges/js-cc-06/
+
 # Coding-Challenges
 Coding challenges will be in this repo regard of Clarusway IT Course.
