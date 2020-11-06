@@ -14,6 +14,7 @@ function convert_to_roman(x) {
       alert('Please insert a valid entry!')
     } else {
     for ( i in lookup ) {
+      console.log(i)
       while ( x >= lookup[i] ) {
         roman += i;
         x -= lookup[i];
